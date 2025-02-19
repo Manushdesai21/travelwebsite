@@ -12,7 +12,7 @@ import SearchBar from '../../shared/SearchBar'
 import ServiceList from '../../services/ServiceList'
 import FeaturedTourList from '../Featured-tours/FeaturedTourList'
 import MasonryImagesGallery from '../Image-gallery/MasonryImagesGallery'
-import Testimonials from '../Testimonial/Testimonials'
+// import Testimonials from '../Testimonial/Testimonials'
 import Newsletter from '../../shared/Newsletter'
 
 
@@ -147,7 +147,7 @@ const Home = () => {
            {/*==================gallery section end============================*/}
            {/*==================testimonial section start============================*/}
            <section>
-            <Container>
+            {/* <Container>
               <Row>
                 <Col lg='12'>
                   <Subtitle subtitle={'Fans Love'} />
@@ -157,7 +157,7 @@ const Home = () => {
                   <Testimonials />
                 </Col>
               </Row>
-            </Container>
+            </Container> */}
            </section>
             {/*==================testimonial section end============================*/}
           <Newsletter />

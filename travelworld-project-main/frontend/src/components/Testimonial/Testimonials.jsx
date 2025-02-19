@@ -1,8 +1,8 @@
 import React from 'react'
 import Slider from 'react-slick'
-import ava01 from '../../assets/images/ava-1.jpg'
-import ava02 from '../../assets/images/ava-2.jpg'
-import ava03 from '../../assets/images/ava-3.jpg'
+//import ava01 from '../../assets/images/ava-1.jpg'
+//import ava02 from '../../assets/images/ava-2.jpg'
+//import ava03 from '../../assets/images/ava-3.jpg'
 
 const Testimonials = () => {
 
@@ -37,62 +37,7 @@ const Testimonials = () => {
 
     return (
         <Slider {...settings}>
-            <div className="testimonial py-4 px-3">
-                <p>The holiday of a life time - our gulet adventure in the Dodecanese Greek Islands was without a doubt
-                    our favourite family trip. The comfort and beauty of the gulet, the incredibly caring crew,
-                    the delicious food, the history we learned from our competent and friendly leader,
-                    along with the stunning beauty of the islands.</p>
-
-                <div className="d-flex align-items-center gap-4 mt-3">
-                    <img src={ava01} className="w-25 h-25 rounded-2" alt="" />
-                    <div >
-                        <h6 className='mb-0 mt-3'>John Doe</h6>
-                        <p>Customer</p>
-                    </div>
-                </div>
-            </div>
-            <div className="testimonial py-4 px-3">
-                <p>The holiday of a life time - our gulet adventure in the Dodecanese Greek Islands was without a doubt
-                    our favourite family trip. The comfort and beauty of the gulet, the incredibly caring crew,
-                    the delicious food, the history we learned from our competent and friendly leader,
-                    along with the stunning beauty of the islands.</p>
-
-                <div className="d-flex align-items-center gap-4 mt-3">
-                    <img src={ava02} className="w-25 h-25 rounded-2" alt="" />
-                    <div >
-                        <h6 className='mb-0 mt-3'>Lia Franklin</h6>
-                        <p>Customer</p>
-                    </div>
-                </div>
-            </div>
-            <div className="testimonial py-4 px-3">
-                <p>The holiday of a life time - our gulet adventure in the Dodecanese Greek Islands was without a doubt
-                    our favourite family trip. The comfort and beauty of the gulet, the incredibly caring crew,
-                    the delicious food, the history we learned from our competent and friendly leader,
-                    along with the stunning beauty of the islands.</p>
-
-                <div className="d-flex align-items-center gap-4 mt-3">
-                    <img src={ava03} className="w-25 h-25 rounded-2" alt="" />
-                    <div >
-                        <h6 className='mb-0 mt-3'>John Doe</h6>
-                        <p>Customer</p>
-                    </div>
-                </div>
-            </div>
-            <div className="testimonial py-4 px-3">
-                <p>The holiday of a life time - our gulet adventure in the Dodecanese Greek Islands was without a doubt
-                    our favourite family trip. The comfort and beauty of the gulet, the incredibly caring crew,
-                    the delicious food, the history we learned from our competent and friendly leader,
-                    along with the stunning beauty of the islands.</p>
-
-                <div className="d-flex align-items-center gap-4 mt-3">
-                    <img src={ava02} className="w-25 h-25 rounded-2" alt="" />
-                    <div >
-                        <h6 className='mb-0 mt-3'>Lia Franklin</h6>
-                        <p>Customer</p>
-                    </div>
-                </div>
-            </div>
+            
         </Slider>
     )
 }
